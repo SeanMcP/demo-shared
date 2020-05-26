@@ -32,6 +32,11 @@ pre {
   margin-top: 0;
 }
 
+button, input, textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
 /* Main */
 
 main {
@@ -45,6 +50,10 @@ main {
 main h1 {
   margin-top: 0;
   text-align: center;
+}
+
+main > * {
+  margin-bottom: 1rem;
 }
 
 main > *:last-child {
@@ -86,7 +95,11 @@ footer#__seanmcp-demo__footer a {
 /* Narrow */
 
 @media screen and (max-width: 600px) {
-  body,
+  body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+  }
   main {
     padding: 1rem;
   }
