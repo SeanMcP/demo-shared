@@ -7,5 +7,5 @@
 Add the following script tag to the bottom of your document:
 
 ```js
-<script src="https://raw.github.com/seanmcp/demo-shared/index.js"></script>
+<script src="https://raw.githubusercontent.com/SeanMcP/demo-shared/master/index.js"></script>
 ```
