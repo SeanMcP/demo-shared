@@ -3,10 +3,10 @@
   "private": false,
   "version": "1.0.1",
   "description": "Shared styles for demo pages",
-  "main": "index.js",
+  "main": "shared.js",
   "files": [
-    "index.js",
-    "styles.css"
+    "shared.js",
+    "shared.css"
   ],
   "repository": {
     "type": "git",

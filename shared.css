@@ -4,6 +4,7 @@
 body {
   --faint-gray: hsl(0, 0%, 90%);
   background: var(--faint-gray);
+  color: hsl(0, 0%, 25%);
   font-family: "Fira Sans";
   padding: 2rem;
   -webkit-font-smoothing: antialiased;
@@ -23,6 +24,7 @@ code {
 
 pre {
   padding: 1rem;
+  overflow-x: auto;
 }
 
 * {
@@ -48,22 +50,33 @@ main > *:last-child {
   margin-bottom: 0;
 }
 
+main p {
+  line-height: 140%;
+}
+
+main a {
+  color: #0d47a1;
+}
+
 /* Footer */
 
-footer#__demo-shared__footer {
-  background: hsl(0, 0%, 20%);
-  color: white;
+footer#__seanmcp-demo__footer {
+  font-family: "Fira Code";
   bottom: 0;
-  font-size: 0.75rem;
+  color: hsla(0, 0%, 0%, 50%);
   left: 0;
-  padding: 0.5rem;
   position: fixed;
   right: 0;
   text-align: center;
 }
 
-footer#__demo-shared__footer a {
-  color: white;
+footer#__seanmcp-demo__footer small {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+footer#__seanmcp-demo__footer a {
+  color: inherit;
 }
 
 /* Narrow */
