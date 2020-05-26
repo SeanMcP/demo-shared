@@ -3,8 +3,9 @@
 
 body {
   --faint-gray: hsl(0, 0%, 90%);
+  --text-color: hsl(0, 0%, 20%);
   background: var(--faint-gray);
-  color: hsl(0, 0%, 25%);
+  color: var(--text-color);
   font-family: "Fira Sans";
   padding: 2rem;
   -webkit-font-smoothing: antialiased;
@@ -71,8 +72,11 @@ footer#__seanmcp-demo__footer {
 }
 
 footer#__seanmcp-demo__footer small {
+  background-color: var(--text-color);
+  box-shadow: 0 0 0.25rem hsla(0, 0%, 0%, 10%);
+  color: white;
   display: inline-block;
-  padding: 0.5rem;
+  padding: 0.25rem 0.5rem;
 }
 
 footer#__seanmcp-demo__footer a {
