@@ -1,7 +1,7 @@
 {
   "name": "@seanmcp/demo",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared styles for demo pages",
   "main": "index.js",
   "files": [
