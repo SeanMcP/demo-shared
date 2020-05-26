@@ -7,7 +7,7 @@ document.title = document.title + ' – SeanMcP'
 // Styles
 const link = document.createElement('link')
 link.rel = 'stylesheet'
-link.href = 'https://raw.githubusercontent.com/SeanMcP/demo-shared/master/styles.css'
+link.href = 'https://unpkg.com/@seanmcp/demo@latest/styles.css'
 document.head.appendChild(link)
 
 // Footer
