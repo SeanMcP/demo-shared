@@ -1,0 +1,15 @@
+{
+  "name": "@seanmcp/demo",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Shared styles for demo pages",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "styles.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanMcP/demo-shared.git"
+  }
+}
