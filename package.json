@@ -6,6 +6,7 @@
   "main": "shared.js",
   "files": [
     "shared.js",
+    "favicon.svg",
     "shared.css"
   ],
   "repository": {
